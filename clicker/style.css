@@ -1,0 +1,351 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+	border: 0;
+}
+
+span {
+	-webkit-user-select: none;
+}
+
+.resultspan {
+	position: absolute;
+	z-index: 100;
+	top: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 36px;
+	font-family: 'courier';
+}
+
+.string {
+	position: absolute;
+	z-index: 100;
+	top: 90px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 16px;
+	font-family: 'courier';
+}
+
+.baks {
+	position: absolute;
+	display: block;
+	z-index: 100;
+	top: 50px;
+	left: 60px;
+	font-size: 24px;
+	color: #75D058;
+	font-family: 'courier';
+}
+
+.money {
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 40px;
+	z-index: 50;
+	width: 40px;
+	height: 45px;
+	background: url(assets/money.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.gameui {
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 20px; 
+	z-index: 100;
+}
+
+.background {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	width: 100vw;
+	height: 100vh;
+	background: url(assets/background.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.worker-wrapper {
+	display: block;
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	z-index: 100;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.table {
+	display: block;
+	position: absolute;
+	z-index: 30;
+	left: 0;
+	bottom: 0;
+	width: 500px;
+	height: 220px;
+	background: url(assets/table.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.chair {
+	display: block;
+	position: absolute;
+	z-index: 10;
+	left: 50%;
+	bottom: 20px;
+	transform: translateX(-50%);
+	width: 180px;
+	height: 350px;
+	background: url(assets/chair.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.macbook {
+	display: block;
+	position: absolute;
+	z-index: 30;
+	left: 50%;
+	bottom: 220px;
+	transform: translateX(-50%);
+	width: 120px;
+	height: 80px;
+	background: url(assets/macbook.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.alexander {
+	display: block;
+	position: absolute;
+	z-index: 20;
+	left: 50%;
+	bottom: 10px;
+	transform: translateX(-50%);
+	width: 216px;
+	height: 440px;
+}
+
+.eyes {
+	display: block;
+	position: absolute;
+	z-index: 30;
+	left: 50%;
+	top: 66px;
+	transform: translateX(-50%);
+	width: 48px;
+	height: 8px;
+	background: url(assets/eyes.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.head {
+	display: block;
+	position: absolute;
+	z-index: 20;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	width: 100px;
+	height: 120px;
+	background: url(assets/head.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hands {
+	display: block;
+	position: absolute;
+	z-index: 20;
+	left: 50%;
+	top: 130px;
+	transform: translateX(-50%);
+	width: 216px;
+	height: 100px;
+}
+
+.handleft {
+	display: block;
+	position: absolute;
+	z-index: 20;
+	left: 0;
+	top: 0;
+	width: 65px;
+	height: 100px;
+	background: url(assets/handleft.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 0.2s;
+}
+
+.handright {
+	display: block;
+	position: absolute;
+	z-index: 20;
+	right: 0;
+	top: 0;
+	width: 65px;
+	height: 100px;
+	background: url(assets/handright.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 0.2s;
+}
+
+.legs {
+	display: block;
+	position: absolute;
+	z-index: 20;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	width: 104px;
+	height: 198px;
+	background: url(assets/legs.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.body {
+	display: block;
+	position: absolute;
+	z-index: 15;
+	left: 50%;
+	top: 110px;
+	transform: translateX(-50%);
+	width: 140px;
+	height: 160px;
+	background: url(assets/body.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 0.2s;
+}
+
+.mult-wrapper, .code-wrapper {
+	margin-bottom: 10px;
+}
+
+.gitpush:hover, .gitmerge:hover, .betarelease:hover, .release:hover, .codeit:hover {
+	opacity: 0.8;
+	transform: scale(0.99);
+}
+
+.gitpush:active, .gitmerge:active, .betarelease:active, .release:active, .codeit:active {
+	opacity: 0.6;
+	transform: scale(0.95);
+}
+
+.gitpush {
+	display: block;
+	width: 180px;
+	height: 80px;
+	background: url(assets/gitpush.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 0.2s;
+}
+
+.gitmerge {
+	display: block;
+	width: 180px;
+	height: 80px;
+	background: url(assets/gitmerge.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 0.2s;
+}
+
+.betarelease {
+	display: block;
+	width: 180px;
+	height: 80px;
+	background: url(assets/betarelease.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 0.2s;
+}
+
+.release {
+	display: block;
+	width: 180px;
+	height: 80px;
+	background: url(assets/release.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 0.2s;
+}
+
+.code-wrapper {
+	display: block;
+	position: relative;
+	width: 180px;
+	height: 80px;
+}
+
+.mult-wrapper {
+	display: block;
+	position: relative;
+	width: 180px;
+	height: 80px;
+}
+
+.mult-price {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 20;
+	padding: 12px 20px;
+	text-align: right;
+}
+
+.codeit {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 180px;
+	height: 80px;
+	background: url(assets/codeit.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 0.2s;
+}
+
+.codemult {
+	display: block;
+	position: absolute;
+	left: -15px;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 100px;
+	padding: 5px 10px;
+	background-color: #CDC82C;
+	color: #fff;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: all 0.2s;
+}
+
+.firstskill {
+	display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    transform-origin: center;
+    z-index: 1000;
+	transition: 1s;
+}
