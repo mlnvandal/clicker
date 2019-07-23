@@ -59,7 +59,6 @@ var $baks = 0;
 var handLeft = document.getElementById('handleft');
 var handRight = document.getElementById('handright');
 var eyes = document.getElementById('eyes');
-var body = document.getElementById('body');
 var handshake = 0;
 var firstSkill = document.getElementById('firstskill');
 var secondSkill = document.getElementById('secondskill');
@@ -229,12 +228,6 @@ function fourthBonus() {
 			}, 100);
 		};
 	}, 1000);
-};
-
-function bodyMotion() {
-	setInterval(function () {
-		body.setAttribute('style', 'transform: scaleY(1.2);transform-origin: top;')
-	}, 5000)
 };
 
 

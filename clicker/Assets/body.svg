@@ -1,4 +1,27 @@
 <svg width="140" height="160" viewBox="0 0 140 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M0 40C0 17.9086 17.9086 0 40 0H100C122.091 0 140 17.9086 140 40V130C140 135.523 135.523 140 130 140H10C4.47716 140 0 135.523 0 130V40Z" fill="#B53326"/>
-<rect y="110" width="140" height="50" rx="20" fill="#4C3D16"/>
+<g clip-path="url(#clip0)">
+<path d="M1.14778 16.0687C0.527564 7.38571 7.40452 0 16.1097 0H123.89C132.595 0 139.472 7.3857 138.852 16.0687L130 140H10L1.14778 16.0687Z" fill="url(#paint0_radial)"/>
+<rect x="10" y="110" width="120" height="50" rx="10" fill="url(#paint1_radial)"/>
+<g opacity="0.4">
+<line x1="2.5" y1="-2.5" x2="91.6187" y2="-2.5" transform="matrix(0.100483 0.994939 -0.99714 0.0755724 19.1929 11.1788)" stroke="#992219" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="2.5" y1="-2.5" x2="91.519" y2="-2.5" transform="matrix(0.0402787 0.999188 -0.999543 0.0302371 45.1155 11.0286)" stroke="#992219" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="72.5964" y1="13.5" x2="72.5964" y2="102.5" stroke="#992219" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="2.5" y1="-2.5" x2="91.519" y2="-2.5" transform="matrix(-0.0402787 0.999188 -0.999543 -0.0302371 95.0774 11.0286)" stroke="#992219" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="2.5" y1="-2.5" x2="91.6187" y2="-2.5" transform="matrix(-0.100483 0.994939 -0.99714 -0.0755724 121 11.1788)" stroke="#992219" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<ellipse cx="70.5" cy="2.5" rx="20.5" ry="15.5" fill="#CE6931"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(70 34.0341) rotate(78.8754) scale(119.206 184.714)">
+<stop stop-color="#B53326"/>
+<stop offset="1" stop-color="#650000"/>
+</radialGradient>
+<radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(70 122.155) rotate(64.7359) scale(46.1918 145.924)">
+<stop stop-color="#4C3D16"/>
+<stop offset="1" stop-color="#261700"/>
+</radialGradient>
+<clipPath id="clip0">
+<rect width="140" height="160" fill="white"/>
+</clipPath>
+</defs>
 </svg>
