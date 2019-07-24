@@ -65,6 +65,7 @@ var secondSkill = document.getElementById('secondskill');
 var thirdSkill = document.getElementById('thirdskill');
 var fourthSkill = document.getElementById('fourthskill');
 var $baksUi = document.getElementById('baks');
+var frontendCodeLines = document.getElementById('codelines');
 
 // Присваиваем начальное значение счетчика и коэффициента
 counter = 0;
@@ -185,6 +186,10 @@ function secondBonus() {
 				handRight.setAttribute('style', 'transform: scaleY(1);transform-origin: top;')
 			}, 100);
 		};
+		function codeLinesAnimate () {
+			frontendCodeLines.innerHTML = codeLines();
+		};
+		codeLinesAnimate();
 	}, 500);
 };
 
@@ -230,5 +235,32 @@ function fourthBonus() {
 	}, 1000);
 };
 
+function codeLines(min, max) {
+  min = Math.ceil(1);
+  max = Math.floor(11);
+  var codeLinesResult = Math.floor(Math.random() * (max - min)) + min;
+  if (codeLinesResult == 1) {
+   return 'let encoder = JSONEncoder()'}
+  else if (codeLinesResult == 2) {
+  	return 'players.sorted(by: { player1, player2'}
+  else if (codeLinesResult == 3) {
+  	return 'class ARConfiguration : NSObject'}
+  else if (codeLinesResult == 4) {
+  	return 'init()'}
+  else if (codeLinesResult == 5) {
+  	return 'let session = myView.session'}
+  else if (codeLinesResult == 6) {
+  	return 'func pause()'}
+  else if (codeLinesResult == 7) {
+  	return '@NSCopying var configuration: ARConfiguration? { get }'}
+  else if (codeLinesResult == 8) {
+  	return 'guard let myScene = SCNScene(named: "MyScene")'}
+  else if (codeLinesResult == 9) {
+  	return 'convenience init(mdlAsset: MDLAsset)'}
+  else if (codeLinesResult == 10) {
+  	return 'init(bufferAllocator: MDLMeshBufferAllocator?)'}
+  else {
+	return 'class func canExportFileExtension(String) -> Bool'}
+};
 
 
